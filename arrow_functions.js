@@ -12,23 +12,29 @@ p("sum: " + sum(2, 3));
 let random = Math.random;
 p("random number: " + random());
 
-document.addEventListener("click", () => alert("clicked"));
+// prettier-ignore
+// document.getElementById("root").innerHTML += '<button id="button1">click me to test addEventlistener in arrow_functions.js</button>'
+// const button = document.getElementById("button");
+// button.addEventListener("click", () => alert("clicked"));
+// p(button);
 
 // prettier-ignore
 // functions override "this" keyword, arrow functions don't!
 class Person {
   constructor(name) { this.name = name; }
-  
+
   printNameFunction() {
-    setTimeout(function () { 
-        p('functions redefine "this" so the following name is gonna be empty: <' + this.name + ">"); 
-    }, 100);
+    const f = function () {
+      p('functions redefine "this" so the following name is gonna be undefined: <' + this + ">")
+    };
+    f()
   }
-  
+
   printNameArrow() {
-    setTimeout(() => {
-        p('arrow functions don\'t redefine "this" so the following name is gonna show: ' + "<" + this.name + ">"); 
-    }, 100);
+    const f = () => {
+      p('arrow functions don\'t redefine "this" so the following name is gonna show: ' +  "<" + this.name + ">");
+    };
+    f()
   }
 }
 

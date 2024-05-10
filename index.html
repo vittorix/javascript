@@ -3,10 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="vittorix@gmail.com" />
     <title>Document</title>
     <script type="module" src="index.js"></script>
+
+    <!--
+      investigate why this button script, to work, needs to be under the index.js script, even being both modules
+    -->
+    <script type="module">
+      document.getElementById("root").innerHTML +=
+        '<button id="button">test addEventListener with arrow function</button>';
+      let button = document.getElementById("button");
+      button.addEventListener("click", () => {
+        alert("clicked: <" + button.innerText + "> button");
+      });
+    </script>
   </head>
-  <body>
-    <strong>click me to test addEventlistener arrow function</strong>
+  <body id="root">
+    <h3>Javascript Exercises</h3>
   </body>
 </html>
