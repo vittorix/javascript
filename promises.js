@@ -98,4 +98,18 @@ Promise.race([action1, action2, action3, action4])
     p("RACE error: " + e);
   });
 
+// waits for all promises to resolve and shows messages. doesn't need catch
+Promise.allSettled([action1, action2, action3, action4]).then((messages) => {
+  p("ALL_SETTLED: " + stringy(messages));
+});
+
+// waits for any promise to resolve and shows message. if all fail shows "AggregateError: All promises were rejected"
+Promise.any([action3, action4])
+  .then((message) => {
+    p("ANY: " + stringy(message));
+  })
+  .catch((e) => {
+    p("ANY error: " + e);
+  });
+
 export default "";
