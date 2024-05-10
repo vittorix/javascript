@@ -25,7 +25,13 @@ const q = (message) => {
   return message;
 };
 
+// cookie that does not expire
+document.cookie = `name=Vitto; expires=${new Date(9999, 0, 1).toUTCString()}`;
+
 //prettier-ignore
-document.getElementById("root").innerHTML += "<p> localStorage: " + q(stringy(localStorage) + "</p>");
+document.getElementById("root").innerHTML +=
+  "<p> localStorage: " + q(stringy(localStorage)) + "</p>" +
+  "<p> sessionStorage: " + q(stringy(sessionStorage)) + "</p>" +
+  "<p> cookie: " + q(stringy(document.cookie)) + "</p>";
 
 export default "";
