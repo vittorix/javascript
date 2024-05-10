@@ -34,4 +34,7 @@ document.getElementById("root").innerHTML +=
   "<p> sessionStorage: " + q(stringy(sessionStorage)) + "</p>" +
   "<p> cookie: " + q(stringy(document.cookie)) + "</p>";
 
+// to remove the cookie
+// document.cookie = "name=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+
 export default "";
