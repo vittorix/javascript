@@ -67,10 +67,10 @@ const action2 = new Promise((resolve, reject) => {
 // after it resolves all, it prints the array of messages
 Promise.all([action1, action2])
   .then((messages) => {
-    p(messages);
+    p("ALL: " + stringy(messages));
   })
   .catch((e) => {
-    p(e);
+    p("ALL: " + e);
   });
 
 const action3 = new Promise((resolve, reject) => {
@@ -80,7 +80,7 @@ const action4 = new Promise((resolve, reject) => {
   resolve("resolved action 4");
 });
 
-// after it rejects one, it stops executing
+// after it rejects one, it stops executing and shows the error
 Promise.all([action1, action2, action3, action4])
   .then((messages) => {
     p("ALL resolved: " + messages);
@@ -92,10 +92,10 @@ Promise.all([action1, action2, action3, action4])
 // after it resolves one, it stops executing
 Promise.race([action1, action2, action3, action4])
   .then((message) => {
-    p("RACE resolved: " + message);
+    p("RACE: " + message);
   })
   .catch((e) => {
-    p("RACE error: " + e);
+    p("RACE: " + e);
   });
 
 // waits for all promises to resolve and shows messages. doesn't need catch
@@ -106,7 +106,7 @@ Promise.allSettled([action1, action2, action3, action4]).then((messages) => {
 // waits for any promise to resolve and shows message. if all fail shows "AggregateError: All promises were rejected"
 Promise.any([action3, action4])
   .then((message) => {
-    p("ANY: " + stringy(message));
+    p("ANY: " + message);
   })
   .catch((e) => {
     p("ANY error: " + e);
