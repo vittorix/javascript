@@ -1,5 +1,6 @@
 import { p } from "./node_modules/vittorix-utils/vittorix-utils.js";
 
+// see array_methods.js too
 p("\n================== ARRAY SORTING =================");
 
 let arr0 = [1, 2, 0, -4, 10, 30, 3];

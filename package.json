@@ -1,6 +1,6 @@
 {
   "type": "module",
   "dependencies": {
-    "vittorix-utils": "^1.0.5"
+    "vittorix-utils": "^1.0.9"
   }
 }

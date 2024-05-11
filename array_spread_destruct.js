@@ -1,9 +1,9 @@
-import { p } from "./node_modules/vittorix-utils/vittorix-utils.js";
+import { p, pa } from "./node_modules/vittorix-utils/vittorix-utils.js";
 
 p("\n============= ARRAY SPREADING/DESTRUCTURING ===========");
 
 const arr = ["a", "b", "c", "d", "e", "f", { name: "vitto" }, "3", "2", "1"];
-p("arr: " + arr);
+pa(arr, "Array");
 
 let [a, , , d, ...rest] = arr;
 p(a + " " + d);
@@ -13,7 +13,7 @@ let arr1 = [...arr];
 p("arr1 with spreading: " + arr1);
 
 arr1 = arr;
-p("arr1 with arrignment: " + arr1);
+p("arr1 with assignment: " + arr1);
 
 arr1 = [...arr, ...arr1]; //arr.concat(arr1)
 p("arr1 arr2 concatenated: " + arr1);
