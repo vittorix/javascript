@@ -55,6 +55,13 @@ let firstExpensive = products.find((product) => product.price > 300);
 p("First expensive: " + vu.stringy(firstExpensive));
 p("-------------------------------------------");
 
+p("INCLUDES - check if the array has a value.");
+let mixedArray = [1, 3, "", "0", undefined, null, "vitto", 7];
+let includesValue = mixedArray.includes("vitto");
+pa(mixedArray, "Mixed array");
+p("Mixed array includes 'vitto': " + includesValue);
+p("-------------------------------------------");
+
 p("REDUCE - uses a reducer on each element and gives a single output value.");
 let sumPrices = products.reduce((total, product) => total + product.price, 0); // notice the initialization of total to 0
 p(`sum of prices: $${sumPrices}`);
