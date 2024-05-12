@@ -1,0 +1,279 @@
+================== ARRAY METHODS =================
+array_methods.js:14 FOREACH - executes a function on each item in an array.
+array_methods.js:16 Laptop: $1200
+array_methods.js:16 Smartphone: $700
+array_methods.js:16 Tablet: $450
+array_methods.js:16 Headphones: $150
+array_methods.js:16 Smartwatch: $300
+array_methods.js:24 sum of prices: $2800
+array_methods.js:25 -------------------------------------------
+array_methods.js:27 MAP - creates a new array transforming every element.
+array_methods.js:29 (5) ['Laptop', 'Smartphone', 'Tablet', 'Headphones', 'Smartwatch']
+array_methods.js:40 Products in Euro: 
+array_methods.js:40 {name: 'Laptop', price: '€1080'}
+array_methods.js:40 {name: 'Smartphone', price: '€630'}
+array_methods.js:40 {name: 'Tablet', price: '€405'}
+array_methods.js:40 {name: 'Headphones', price: '€135'}
+array_methods.js:40 {name: 'Smartwatch', price: '€270'}
+array_methods.js:43 All Names: Laptop, Smartphone, Tablet, Headphones, Smartwatch
+array_methods.js:44 -------------------------------------------
+array_methods.js:46 FILTER - creates a new array with elements passing a test.
+array_methods.js:48 Products costing more than 300$: 
+array_methods.js:48 {name: 'Laptop', price: 1200}
+array_methods.js:48 {name: 'Smartphone', price: 700}
+array_methods.js:48 {name: 'Tablet', price: 450}
+array_methods.js:49 -------------------------------------------
+array_methods.js:51 FIND - returns first element satisfying a test, or undefined.
+array_methods.js:53 Smartwatch: {"name":"Smartwatch","price":300}
+array_methods.js:55 First expensive: {"name":"Laptop","price":1200}
+array_methods.js:56 -------------------------------------------
+array_methods.js:58 INCLUDES - check if the array has a value.
+array_methods.js:61 Mixed array: 
+array_methods.js:61 1
+array_methods.js:61 3
+array_methods.js:61 
+array_methods.js:61 0
+array_methods.js:61 undefined
+array_methods.js:61 null
+array_methods.js:61 vitto
+array_methods.js:61 7
+array_methods.js:62 Mixed array includes 'vitto': true
+array_methods.js:63 -------------------------------------------
+array_methods.js:65 REDUCE - uses a reducer on each element and gives a single output value.
+array_methods.js:67 sum of prices: $2800
+array_methods.js:76 All Names: Laptop, Smartphone, Tablet, Headphones, Smartwatch
+array_methods.js:77 -------------------------------------------
+array_methods.js:79 SOME - checks if at least one element passes a test.
+array_methods.js:81 Has affordable product: false
+array_methods.js:84 Has laptop: true
+array_methods.js:85 -------------------------------------------
+array_methods.js:87 EVERY - checks if all elements pass a test.
+array_methods.js:89 All products are expensive: false
+array_methods.js:92 Has all prices: true
+array_methods.js:93 -------------------------------------------
+array_methods.js:96 SORT - sorts the array and returns it (changing the original array).
+array_methods.js:98 Sorted by price: 
+array_methods.js:98 {name: 'Headphones', price: 150}
+array_methods.js:98 {name: 'Smartwatch', price: 300}
+array_methods.js:98 {name: 'Tablet', price: 450}
+array_methods.js:98 {name: 'Smartphone', price: 700}
+array_methods.js:98 {name: 'Laptop', price: 1200}
+array_methods.js:101 Sorted by name inverted: 
+array_methods.js:101 {name: 'Laptop', price: 1200}
+array_methods.js:101 {name: 'Smartphone', price: 700}
+array_methods.js:101 {name: 'Tablet', price: 450}
+array_methods.js:101 {name: 'Smartwatch', price: 300}
+array_methods.js:101 {name: 'Headphones', price: 150}
+array_methods_new.js:4 
+================== ARRAY METHODS NEW =================
+array_methods_new.js:13 Products: 
+array_methods_new.js:13 products on sale
+array_methods_new.js:13 {}
+array_methods_new.js:13 {name: 'Laptop', price: 1200}
+array_methods_new.js:13 {name: 'Smartphone', price: 700}
+array_methods_new.js:13 {name: 'Tablet', price: 450}
+array_methods_new.js:15 ---------------------------------------
+array_methods_new.js:16 WITH: changes elements of the array
+array_methods_new.js:20 Products1: 
+array_methods_new.js:20 electronics on sale
+array_methods_new.js:20 {}
+array_methods_new.js:20 {name: 'Laptop', price: 1200}
+array_methods_new.js:20 {name: 'Smartphone', price: 700}
+array_methods_new.js:20 {name: 'Tablet', price: 450}
+array_methods_new.js:24 Products2: 
+array_methods_new.js:24 electronics on sale
+array_methods_new.js:24 {}
+array_methods_new.js:24 {name: 'Laptop', price: 1200}
+array_methods_new.js:24 {name: 'Smartphone', price: 700}
+array_methods_new.js:24 {name: 'Tablet', price: 450}
+array_methods_new.js:26 Products2: 
+array_methods_new.js:26 products on sale
+array_methods_new.js:26 {name: 'Keyboard', price: 123}
+array_methods_new.js:26 {name: 'Laptop', price: 1200}
+array_methods_new.js:26 {name: 'Smartphone', price: 700}
+array_methods_new.js:26 {name: 'Tablet', price: 450}
+array_methods_new.js:30 Products2: 
+array_methods_new.js:30 electronics on sale
+array_methods_new.js:30 {name: 'Keyboard', price: 123}
+array_methods_new.js:30 {name: 'Laptop', price: 1200}
+array_methods_new.js:30 {name: 'Smartphone', price: 700}
+array_methods_new.js:30 {name: 'Tablet', price: 450}
+array_methods_new.js:34 Products3: 
+array_methods_new.js:34 products on sale
+array_methods_new.js:34 {}
+array_methods_new.js:34 {name: 'Laptop', price: 456}
+array_methods_new.js:34 {name: 'Smartphone', price: 700}
+array_methods_new.js:34 {name: 'Tablet', price: 450}
+array_methods_new.js:36 ---------------------------------------
+array_sorting.js:4 
+================== ARRAY SORTING =================
+array_sorting.js:6 -------------- SORT() --------------
+array_sorting.js:8 arr0: 1,2,0,-4,10,30,3
+array_sorting.js:11 sorted1 (string): -4,0,1,10,2,3,30
+array_sorting.js:18 function compare: (a, b) => a - b
+array_sorting.js:19 -1
+array_sorting.js:20 0
+array_sorting.js:21 1
+array_sorting.js:24 sorted2: -4,0,1,2,3,10,30
+array_sorting.js:25 sorted3: -4,0,1,2,3,10,30
+array_sorting.js:28 inverted1: 30,10,3,2,1,0,-4
+array_sorting.js:30 inverted2: 30,10,3,2,1,0,-4
+array_sorting.js:31 inverted3: 23,22,11,8,2,1,0,-2
+array_sorting.js:34 sorted5: b,1,2,10,a
+array_sorting.js:35 sorted6: b,1,2,10,a
+array_sorting.js:36 sorted7: b,1,2,10,a
+array_sorting.js:37 sorted8: b,1,2,10,a
+array_sorting.js:44 sorted9: b,10,2,1,a
+array_sorting.js:49 sorted10 sort(): 1,10,2,a,b
+array_sorting.js:50 sorted11 original array: 1,10,2,a,b
+array_sorting.js:52 -------------- TOSORTED() --------------
+array_sorting.js:56 toSorted(): 1,10,2,a,b
+array_sorting.js:57 original array: b,2,1,10,a
+array_sorting.js:59 -------------- REVERSE() --------------
+array_sorting.js:63 reversed(): 6,5,4,3,2,1
+array_sorting.js:64 original array: 6,5,4,3,2,1
+array_sorting.js:66 -------------- TOREVERSED() --------------
+array_sorting.js:70 reversed(): 6,5,4,3,2,1
+array_sorting.js:71 original array: 1,2,3,4,5,6
+array_sorting.js:73 -------------- SPLICE() --------------
+array_sorting.js:77 splice(1, 3): 2,3,4
+array_sorting.js:78 original array: 1,5,6
+array_sorting.js:80 -------------- TOSPLICED() --------------
+array_sorting.js:84 toSpliced(1, 3): 1,5,6
+array_sorting.js:85 original array: 1,2,3,4,5,6
+array_sorting.js:90 toSpliced(1, 3, '999'): 1,999,5,6
+array_sorting.js:91 original array: 1,2,3,4,5,6
+array_spread_destruct.js:3 
+============= ARRAY SPREADING/DESTRUCTURING ===========
+array_spread_destruct.js:6 Array: 
+array_spread_destruct.js:6 a
+array_spread_destruct.js:6 b
+array_spread_destruct.js:6 c
+array_spread_destruct.js:6 d
+array_spread_destruct.js:6 e
+array_spread_destruct.js:6 f
+array_spread_destruct.js:6 {name: 'vitto'}
+array_spread_destruct.js:6 3
+array_spread_destruct.js:6 2
+array_spread_destruct.js:6 1
+array_spread_destruct.js:9 a d
+array_spread_destruct.js:10 Rest: 
+array_spread_destruct.js:10 e
+array_spread_destruct.js:10 f
+array_spread_destruct.js:10 {name: 'vitto'}
+array_spread_destruct.js:10 3
+array_spread_destruct.js:10 2
+array_spread_destruct.js:10 1
+array_spread_destruct.js:13 arr1 with spreading: 
+array_spread_destruct.js:13 a
+array_spread_destruct.js:13 b
+array_spread_destruct.js:13 c
+array_spread_destruct.js:13 d
+array_spread_destruct.js:13 e
+array_spread_destruct.js:13 f
+array_spread_destruct.js:13 {name: 'vitto'}
+array_spread_destruct.js:13 3
+array_spread_destruct.js:13 2
+array_spread_destruct.js:13 1
+array_spread_destruct.js:16 arr1 with assignment: 
+array_spread_destruct.js:16 a
+array_spread_destruct.js:16 b
+array_spread_destruct.js:16 c
+array_spread_destruct.js:16 d
+array_spread_destruct.js:16 e
+array_spread_destruct.js:16 f
+array_spread_destruct.js:16 {name: 'vitto'}
+array_spread_destruct.js:16 3
+array_spread_destruct.js:16 2
+array_spread_destruct.js:16 1
+array_spread_destruct.js:19 arr1 arr2 concatenated: 
+array_spread_destruct.js:19 a
+array_spread_destruct.js:19 b
+array_spread_destruct.js:19 c
+array_spread_destruct.js:19 d
+array_spread_destruct.js:19 e
+array_spread_destruct.js:19 f
+array_spread_destruct.js:19 {name: 'vitto'}
+array_spread_destruct.js:19 3
+array_spread_destruct.js:19 2
+array_spread_destruct.js:19 1
+array_spread_destruct.js:19 a
+array_spread_destruct.js:19 b
+array_spread_destruct.js:19 c
+array_spread_destruct.js:19 d
+array_spread_destruct.js:19 e
+array_spread_destruct.js:19 f
+array_spread_destruct.js:19 {name: 'vitto'}
+array_spread_destruct.js:19 3
+array_spread_destruct.js:19 2
+array_spread_destruct.js:19 1
+array_spread_destruct.js:25 5
+array_spread_destruct.js:26 6
+array_spread_destruct.js:27 no division
+array_spread_destruct.js:31 Arr2: 
+array_spread_destruct.js:31 added as first element
+array_spread_destruct.js:31 a
+array_spread_destruct.js:31 b
+array_spread_destruct.js:31 c
+array_spread_destruct.js:31 d
+array_spread_destruct.js:31 e
+array_spread_destruct.js:31 f
+array_spread_destruct.js:31 {name: 'vitto'}
+array_spread_destruct.js:31 3
+array_spread_destruct.js:31 2
+array_spread_destruct.js:31 1
+array_spread_destruct.js:35 Arr3: 
+array_spread_destruct.js:35 +++
+array_spread_destruct.js:35 a
+array_spread_destruct.js:35 b
+array_spread_destruct.js:35 c
+array_spread_destruct.js:35 d
+array_spread_destruct.js:35 e
+array_spread_destruct.js:35 f
+array_spread_destruct.js:35 {name: 'vitto'}
+array_spread_destruct.js:35 3
+array_spread_destruct.js:35 2
+array_spread_destruct.js:35 1
+array_spread_destruct.js:35 ---
+array_spread_destruct.js:35 12333
+object_spread_destruct.js:7 
+============= OBJECT SPREADING/DESTRUCTURING ============
+object_spread_destruct.js:52 (3) [{…}, {…}, {…}]
+object_spread_destruct.js:53 {person1: {…}, person2: {…}, person3: {…}}
+object_spread_destruct.js:56 full name: John Doe - city: New York
+object_spread_destruct.js:62 Jane Smith Los Angeles
+object_spread_destruct.js:63 Jane Smith New York NY 10001
+object_spread_destruct.js:66 {"name":"Vitto","height":72,"address":{"city":"New york","state":"FL","zip":"12345"}}
+object_spread_destruct.js:68 {name: 'vitto', height: 72}
+object_spread_destruct.js:77 {name: 'Vitto', height: 72, address: {…}, job: 'software dev'}
+object_spread_destruct.js:78 {"name":"Vitto","height":72,"address":{"fullAddress":"Los Angeles, California 12345"},"job":"software dev"}
+object_spread_destruct.js:82 name: Vitto. height: 72
+object_spread_destruct.js:88 name: Vitto. height: 72. food: fish
+arrow_functions.js:4 
+============= ARROW FUNCTIONS ============
+arrow_functions.js:7 7 is positive: true
+arrow_functions.js:10 sum: 5
+arrow_functions.js:13 random number: 0.5342337313251733
+arrow_functions.js:28 functions redefine "this" so the following name is gonna be undefined: <undefined>
+arrow_functions.js:35 arrow functions don't redefine "this" so the following name is gonna show: <vitto>
+storage_cookies.js:3 
+============= LOCAL/SESSION STORAGE AND COOKIES ============
+storage_cookies.js:13 Storage {height: '72', name: 'VittoLocal', length: 2}
+storage_cookies.js:17 Storage {name: 'VittoSession', height: '72', length: 2}
+storage_cookies.js:20 name=VittoCookie
+storage_cookies.js:24 {"height":"72","name":"VittoLocal"}
+storage_cookies.js:24 {"name":"VittoSession","height":"72"}
+storage_cookies.js:24 "name=Vitto"
+promises.js:3 
+============= PROMISES ============
+promises.js:11 success
+promises.js:34 1: condition is true
+promises.js:44 5: condition is true
+promises.js:40 4: condition is false
+promises.js:70 ALL: ["resolved action 1","resolved action 2"]
+promises.js:95 RACE: resolved action 1
+promises.js:103 ALL_SETTLED: [{"status":"fulfilled","value":"resolved action 1"},{"status":"fulfilled","value":"resolved action 2"},{"status":"rejected","reason":"rejected action 3"},{"status":"fulfilled","value":"resolved action 4"}]
+promises.js:109 ANY: resolved action 4
+promises.js:89 ALL error: rejected action 3
+promises.js:48 6: condition is true
+promises.js:56 8: condition is false
