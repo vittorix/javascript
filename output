@@ -1,3 +1,4 @@
+
 ================== ARRAY METHODS =================
 array_methods.js:14 FOREACH - executes a function on each item in an array.
 array_methods.js:16 Laptop: $1200
@@ -105,44 +106,61 @@ array_methods_new.js:34 {name: 'Laptop', price: 456}
 array_methods_new.js:34 {name: 'Smartphone', price: 700}
 array_methods_new.js:34 {name: 'Tablet', price: 450}
 array_methods_new.js:36 ---------------------------------------
-array_sorting.js:4 
+array_methods_new.js:37 STRUCTURED CLONE: makes a deep copy of an object.
+array_methods_new.js:51 array cloned and in euro: 
+array_methods_new.js:51 {name: 'Laptop', price: '€1080'}
+array_methods_new.js:51 {name: 'Smartphone', price: '€630'}
+array_methods_new.js:51 {name: 'Tablet', price: '€405'}
+array_methods_new.js:52 original array: 
+array_methods_new.js:52 {name: 'Laptop', price: 1200}
+array_methods_new.js:52 {name: 'Smartphone', price: 700}
+array_methods_new.js:52 {name: 'Tablet', price: 450}
+array_methods_new.js:59 array spreaded and in euro: 
+array_methods_new.js:59 {name: 'Laptop', price: '€1080'}
+array_methods_new.js:59 {name: 'Smartphone', price: '€630'}
+array_methods_new.js:59 {name: 'Tablet', price: '€405'}
+array_methods_new.js:60 original array: 
+array_methods_new.js:60 {name: 'Laptop', price: 1080}
+array_methods_new.js:60 {name: 'Smartphone', price: 630}
+array_methods_new.js:60 {name: 'Tablet', price: 405}
+array_sorting_reverse_splice.js:4 
 ================== ARRAY SORTING =================
-array_sorting.js:6 -------------- SORT() --------------
-array_sorting.js:8 arr0: 1,2,0,-4,10,30,3
-array_sorting.js:11 sorted1 (string): -4,0,1,10,2,3,30
-array_sorting.js:18 function compare: (a, b) => a - b
-array_sorting.js:19 -1
-array_sorting.js:20 0
-array_sorting.js:21 1
-array_sorting.js:24 sorted2: -4,0,1,2,3,10,30
-array_sorting.js:25 sorted3: -4,0,1,2,3,10,30
-array_sorting.js:28 inverted1: 30,10,3,2,1,0,-4
-array_sorting.js:30 inverted2: 30,10,3,2,1,0,-4
-array_sorting.js:31 inverted3: 23,22,11,8,2,1,0,-2
-array_sorting.js:34 sorted5: b,1,2,10,a
-array_sorting.js:35 sorted6: b,1,2,10,a
-array_sorting.js:36 sorted7: b,1,2,10,a
-array_sorting.js:37 sorted8: b,1,2,10,a
-array_sorting.js:44 sorted9: b,10,2,1,a
-array_sorting.js:49 sorted10 sort(): 1,10,2,a,b
-array_sorting.js:50 sorted11 original array: 1,10,2,a,b
-array_sorting.js:52 -------------- TOSORTED() --------------
-array_sorting.js:56 toSorted(): 1,10,2,a,b
-array_sorting.js:57 original array: b,2,1,10,a
-array_sorting.js:59 -------------- REVERSE() --------------
-array_sorting.js:63 reversed(): 6,5,4,3,2,1
-array_sorting.js:64 original array: 6,5,4,3,2,1
-array_sorting.js:66 -------------- TOREVERSED() --------------
-array_sorting.js:70 reversed(): 6,5,4,3,2,1
-array_sorting.js:71 original array: 1,2,3,4,5,6
-array_sorting.js:73 -------------- SPLICE() --------------
-array_sorting.js:77 splice(1, 3): 2,3,4
-array_sorting.js:78 original array: 1,5,6
-array_sorting.js:80 -------------- TOSPLICED() --------------
-array_sorting.js:84 toSpliced(1, 3): 1,5,6
-array_sorting.js:85 original array: 1,2,3,4,5,6
-array_sorting.js:90 toSpliced(1, 3, '999'): 1,999,5,6
-array_sorting.js:91 original array: 1,2,3,4,5,6
+array_sorting_reverse_splice.js:6 -------------- SORT() --------------
+array_sorting_reverse_splice.js:8 arr0: 1,2,0,-4,10,30,3
+array_sorting_reverse_splice.js:11 sorted1 (string): -4,0,1,10,2,3,30
+array_sorting_reverse_splice.js:18 function compare: (a, b) => a - b
+array_sorting_reverse_splice.js:19 -1
+array_sorting_reverse_splice.js:20 0
+array_sorting_reverse_splice.js:21 1
+array_sorting_reverse_splice.js:24 sorted2: -4,0,1,2,3,10,30
+array_sorting_reverse_splice.js:25 sorted3: -4,0,1,2,3,10,30
+array_sorting_reverse_splice.js:28 inverted1: 30,10,3,2,1,0,-4
+array_sorting_reverse_splice.js:30 inverted2: 30,10,3,2,1,0,-4
+array_sorting_reverse_splice.js:31 inverted3: 23,22,11,8,2,1,0,-2
+array_sorting_reverse_splice.js:34 sorted5: b,1,2,10,a
+array_sorting_reverse_splice.js:35 sorted6: b,1,2,10,a
+array_sorting_reverse_splice.js:36 sorted7: b,1,2,10,a
+array_sorting_reverse_splice.js:37 sorted8: b,1,2,10,a
+array_sorting_reverse_splice.js:44 sorted9: b,10,2,1,a
+array_sorting_reverse_splice.js:49 sorted10 sort(): 1,10,2,a,b
+array_sorting_reverse_splice.js:50 sorted11 original array: 1,10,2,a,b
+array_sorting_reverse_splice.js:52 -------------- TOSORTED() --------------
+array_sorting_reverse_splice.js:56 toSorted(): 1,10,2,a,b
+array_sorting_reverse_splice.js:57 original array: b,2,1,10,a
+array_sorting_reverse_splice.js:59 -------------- REVERSE() --------------
+array_sorting_reverse_splice.js:63 reversed(): 6,5,4,3,2,1
+array_sorting_reverse_splice.js:64 original array: 6,5,4,3,2,1
+array_sorting_reverse_splice.js:66 -------------- TOREVERSED() --------------
+array_sorting_reverse_splice.js:70 reversed(): 6,5,4,3,2,1
+array_sorting_reverse_splice.js:71 original array: 1,2,3,4,5,6
+array_sorting_reverse_splice.js:73 -------------- SPLICE() --------------
+array_sorting_reverse_splice.js:77 splice(1, 3): 2,3,4
+array_sorting_reverse_splice.js:78 original array: 1,5,6
+array_sorting_reverse_splice.js:80 -------------- TOSPLICED() --------------
+array_sorting_reverse_splice.js:84 toSpliced(1, 3): 1,5,6
+array_sorting_reverse_splice.js:85 original array: 1,2,3,4,5,6
+array_sorting_reverse_splice.js:90 toSpliced(1, 3, '999'): 1,999,5,6
+array_sorting_reverse_splice.js:91 original array: 1,2,3,4,5,6
 array_spread_destruct.js:3 
 ============= ARRAY SPREADING/DESTRUCTURING ===========
 array_spread_destruct.js:6 Array: 
@@ -253,7 +271,7 @@ arrow_functions.js:4
 ============= ARROW FUNCTIONS ============
 arrow_functions.js:7 7 is positive: true
 arrow_functions.js:10 sum: 5
-arrow_functions.js:13 random number: 0.5342337313251733
+arrow_functions.js:13 random number: 0.006950788958965726
 arrow_functions.js:28 functions redefine "this" so the following name is gonna be undefined: <undefined>
 arrow_functions.js:35 arrow functions don't redefine "this" so the following name is gonna show: <vitto>
 storage_cookies.js:3 
