@@ -7,3 +7,4 @@ import "./arrow_functions.js";
 import "./storage_cookies.js";
 import "./promises.js";
 import "./closures.js";
+import "./template_literals.js";
